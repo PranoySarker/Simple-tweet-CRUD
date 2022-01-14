@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweet Tweet</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="row justify-content-center ">
+            <section class="col-8 control">
+                <nav class="navbar navbar-dark bg-primary d-flex">
+                    <h1 class="navbar-brand m-auto">Tweet</h1>
+                    <input type="text" name="filter" class="form-control m-2" id="search"
+                        placeholder="find your tweet..." />
+                </nav>
+                <div class="card card-body">
+                    <ul class="list-group collection">
+                        <!-- <li class="bg-light list-group-item collection-item" id="product-0">
+                            <span class="postText">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Ullam temporibus consectetur
+                                cupiditate rem deleniti ipsum eius corrupti tempora, natus rerum maxime atque fugit!
+                            </span>
+                            <i class="fas fa-trash float-right delete-post"></i>
+                            <i class="fas fa-pencil-alt float-right edit-btn mr-1"></i>
+
+                        </li> -->
+                   </ul>
+                    <span class="msg"></span>
+                    
+                    <div class="bg-light mt-2">
+                        <textarea class="form-control ml-1 shadow-none textarea post-field"></textarea>
+                        <button class="btn btn-primary  mt-2 pull-right float-right post-btn" type="button">Post</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

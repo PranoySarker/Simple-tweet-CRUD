@@ -1,0 +1,11 @@
+body{
+    background: rgba(57, 234, 247, 0.514);
+    padding-top: 50px;
+}
+
+.control{
+    border-radius: 10px;
+}
+.collection-item{
+    border-radius: 15px;
+}
